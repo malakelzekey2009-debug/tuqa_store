@@ -193,6 +193,10 @@ header {
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;
     border: 2px solid var(--blush-pink);
+    width: 90%;
+    max-width: 350px;
+    margin: 15px auto;
+    box-sizing: border-box;
 }
 
 .category-card:hover {
